@@ -219,7 +219,7 @@
 @media (min-width: 900px) {
   .hs-slide-detail {
     font-size: 50px;
-    line-height: 90px;
+    line-height: 70px;
 
     padding: 0 20px;
   }
@@ -227,8 +227,8 @@
 
 @media (min-width: 1200px) {
   .hs-slide-detail {
-    font-size: 100px;
-    line-height: 130px;
+    font-size: 80px;
+    line-height: 100px;
   }
 
   .hs-slide-detail__content {

@@ -10,3 +10,10 @@
 ## Releases
 
 - 1.0.0 - example usage
+
+## Dependencies
+
+### Development
+
+- [http-server](https://www.npmjs.com/package/http-server)
+
