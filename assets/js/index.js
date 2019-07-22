@@ -1,13 +1,8 @@
 import Carousel from './OverlappingCarousel.js';
 import InvernoSlide from './InvernoSlide.js';
 
-
-/* Exemplo de uso do OverLappingCarousel + InvernoSlide. ana/inverno-2019 */
-const elCarousel = document.querySelector('[data-js="hs-overcarousel"]');
-
-new Carousel({
-  el: elCarousel,
-  timeTransition: 1000,
+Carousel(
+  document.querySelector('[data-js="hs-overcarousel"]'), {
   autoplay: true,
   list: [
     new InvernoSlide({
